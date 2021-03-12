@@ -4,10 +4,18 @@
     width: 5em;
 }
 
+
+.profileContainer {
+    display: flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+}
 .cardPokemon {
 
     height: 20em;
     width: 15em;
+    margin-top : 1em;
 
     background-color: lightcyan;
 
@@ -18,10 +26,13 @@
     justify-content: center;
 }
 
+.awfulLogo {
+    height: 3em;
+    width: 8em;
+}
+
 .pokemonUp {
     height: 2em;
-
-    background-color: lightgrey;
 
     display: flex;
     align-items: center;
